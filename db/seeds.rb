@@ -8,4 +8,20 @@ facial = Service.create!(service_type:"Facial", pricing:1500, image:"https://ima
 
 braiding = Service.create!(service_type:"Braiding", pricing:2000, image:"https://www.socialbeautyclub.com/wp-content/uploads/2021/09/Box-Braid-Hairstyle-27.png")
 
+puts "Seeding service_provider ..."
+
+service_provider1= ServiceProvider.create!(name:"Lucy Atieno", gender:"Female")
+service_provider2= ServiceProvider.create!(name:"Grace Wambui", gender:"Female")
+service_provider3= ServiceProvider.create!(name:"John Wafula", gender:"Male")
+service_provider4= ServiceProvider.create!(name:"Mike Onyango", gender:"Male")
+
+puts "Seeding bookings ..."
+
+booking1= Booking.create!(client: "Janet Njeri", service_provider_id:1, service_id:1, date: "11/12/2022")
+booking2= Booking.create!(client: "Mary Mwende", service_provider_id:2, service_id:2, date: "11/12/2022")
+
+booking3= Booking.create!(client: "Olive Chebet", service_provider_id:3, service_id:3, date: "12/12/2022")
+
+booking4= Booking.create!(client: "Anastacia Wanjiru", service_provider_id:4, service_id:4, date: "11/11/2022")
+
 puts "Done seeding ..."
