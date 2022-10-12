@@ -13,6 +13,11 @@ def update
     service.update (service_params)
     render json: service
 end
+def destroy
+    service = find_service
+    service.destroy
+    head:no_content
+end
 
 private
 

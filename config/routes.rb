@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-resources :services, only: [:index, :create, :update]
+resources :services, only: [:index, :create, :update, :destroy]
 end
