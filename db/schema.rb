@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
 ActiveRecord::Schema.define(version: 2022_10_12_154621) do
 
   create_table "services", force: :cascade do |t|
@@ -19,5 +20,21 @@ ActiveRecord::Schema.define(version: 2022_10_12_154621) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
+
+ActiveRecord::Schema.define(version: 2022_10_12_153039) do
+
+  create_table "bookings", force: :cascade do |t|
+    t.integer "service_id", null: false
+    t.integer "ServiceProvider_id", null: false
+    t.string "client"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.date "date_book"
+    t.index ["ServiceProvider_id"], name: "index_bookings_on_ServiceProvider_id"
+    t.index ["service_id"], name: "index_bookings_on_service_id"
+  end
+
+  add_foreign_key "bookings", "ServiceProviders"
+  add_foreign_key "bookings", "services"
 
 end
