@@ -15,14 +15,14 @@ rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity_response
 
     def create
         booking = Booking.create!(booking_params)
-        render json: booking
+        render json: booking,status: :created
     end
 
     def update
 
         booking= find_booking
         booking.update!(booking_params)
-        render json: booking
+        render json: booking,status: :accepted
     end
 
     def destroy
