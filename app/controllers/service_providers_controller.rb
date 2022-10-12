@@ -8,7 +8,7 @@ class ServiceProvidersController < ApplicationController
 
      def index
         service_provider = ServiceProvider.all 
-        render json: service_provider 
+        render json: service_provider
     end
     def create
 
