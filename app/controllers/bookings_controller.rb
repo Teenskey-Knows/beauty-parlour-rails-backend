@@ -39,7 +39,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity_response
     end
 
     def booking_params
-        params.permit(:id, :client,:service_id,:ServiceProvider_id)
+        params.permit( :client,:service_id,:service_provider_id, :date)
     end
 
     def record_not_found_response
