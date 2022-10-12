@@ -1,5 +1,12 @@
 class BookingsController < ApplicationController
 
+    wrap_parameters format:[]
+    
+rescue_from ActiveRecord::RecordNotFound, with: :record_not_found_response
+
+rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity_response
+
+
 
     def index
         booking = Booking.all
@@ -33,6 +40,14 @@ class BookingsController < ApplicationController
 
     def booking_params
         params.permit(:id, :client,:service_id,:ServiceProvider_id)
+    end
+
+    def record_not_found_response
+        render json: {error: "Record not found"},status: :not_found
+    end
+
+    def unprocessable_entity_response(invalid)
+        render json: {errors: invalid.record.errors.full_messages}, status: :unprocessable_entity_response
     end
 
 
