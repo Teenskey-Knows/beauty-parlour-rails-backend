@@ -10,10 +10,10 @@ braiding = Service.create!(service_type:"Braiding", pricing:2000, image:"https:/
 
 puts "Seeding service_provider ..."
 
-service_provider1= ServiceProvider.create!(name:"Lucy Atieno", gender:"Female")
-service_provider2= ServiceProvider.create!(name:"Grace Wambui", gender:"Female")
-service_provider3= ServiceProvider.create!(name:"John Wafula", gender:"Male")
-service_provider4= ServiceProvider.create!(name:"Mike Onyango", gender:"Male")
+service_provider1= ServiceProvider.create!(name:"Lucy Atieno", gender:"Female",email: "lucyatiesh@gmail.com",password:"lucyatieno")
+service_provider2= ServiceProvider.create!(name:"Grace Wambui", gender:"Female",email:"gracewambui@gmail.com",password:"gracewambui")
+service_provider3= ServiceProvider.create!(name:"John Wafula", gender:"Male",email:"johnwafula@gmail.com",password:"johnwafula")
+service_provider4= ServiceProvider.create!(name:"Mike Onyango", gender:"Male",email:"mikeonyango@gmail.com",password:"mikeonyango")
 
 puts "Seeding bookings ..."
 
