@@ -6,10 +6,6 @@ class ServiceProvidersController < ApplicationController
  rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 
 
-    #  def index
-    #     service_provider = ServiceProvider.all 
-    #     render json: service_provider
-    # end
     def create_account
         provider = ServiceProvider.create(service_provider_params)
         if provider.valid?
@@ -26,8 +22,7 @@ class ServiceProvidersController < ApplicationController
                 }
             end
 
-    # service_provider = ServiceProvider.create!(service_provider_params)
-    # render json: service_provider, status: :created
+
     end
 
 
@@ -48,11 +43,7 @@ class ServiceProvidersController < ApplicationController
         },status: :ok
 
     end
-# def destroy
-#     service_provider = find_service_provider
-#     service_provider.destroy
-#     head:no_content
-# end
+
 private
 
 def find_service_provider
