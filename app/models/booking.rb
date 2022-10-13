@@ -4,10 +4,10 @@ class Booking < ApplicationRecord
 
   #validations
 
-  validates :client , presence: true
+  # validates :client , presence: true
   validates :service_id, presence: true
   validates :service_provider_id, presence: true
-  validates :date, presence: true
+  # validates :date, presence: true
 
 
 

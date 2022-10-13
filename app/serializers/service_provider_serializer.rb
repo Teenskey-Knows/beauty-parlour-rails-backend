@@ -1,4 +1,4 @@
 class ServiceProviderSerializer < ActiveModel::Serializer
-  attributes :name
+  attributes :name,:gender
 
 end
