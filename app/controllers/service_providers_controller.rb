@@ -44,7 +44,7 @@ class ServiceProvidersController < ApplicationController
     def logout_account
         delete_provider_session
         render json: {
-            message: "Log out successfully"
+            message: "Log out successful"
         },status: :ok
 
     end

@@ -1,7 +1,18 @@
 Rails.application.routes.draw do
 #service controller
-resources :services, only: [:index, :create, :update, :destroy]
+
+post "/services", to: "services#create"
+
+get "/services/:id", to: "services#show"
+
+get "/services", to: "services#list_services"
+
+put "/services/:id", to: "services#update"
+
+delete "/services/:id", to: "services#destroy"
+
 #service_provider controller
+
 # resources :service_providers, only: [:index, :create, :destroy]
 
 post '/serviceprovider/register', to: "service_providers#create_account"
