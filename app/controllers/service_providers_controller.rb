@@ -6,28 +6,69 @@ class ServiceProvidersController < ApplicationController
  rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity_response
 
 
-     def index
-        service_provider = ServiceProvider.all 
-        render json: service_provider
-    end
-    def create
+    #  def index
+    #     service_provider = ServiceProvider.all 
+    #     render json: service_provider
+    # end
+    def create_account
+        provider = ServiceProvider.create(service_provider_params)
+        if provider.valid?
+            create_provider_session(provider.id)
+            render json: {
+                message: "Account successfully created",
+                data: provider
+            },status: :created
 
-    service_provider = ServiceProvider.create!(service_provider_params)
-    render json: service_provider, status: :created
-end
-def destroy
-    service_provider = find_service_provider
-    service_provider.destroy
-    head:no_content
-end
+            else 
+                render json: {
+                    message: "Invalid input",
+                    data: provider.errors.full_messages
+                }
+            end
+
+    # service_provider = ServiceProvider.create!(service_provider_params)
+    # render json: service_provider, status: :created
+    end
+
+
+    def login_account
+        provider = ServiceProvider.find_by(email: params[:email])
+        if provider&.authenticate(params[:password])
+            create_provider_session(provider.id)
+            render json: {message: "Login successful", data: provider},status: :ok
+        else
+            render json: {message: "Invalid email or password"},status: 401
+        end
+    end
+
+    def logout_account
+        delete_provider_session
+        render json: {
+            message: "Log out successfully"
+        },status: :ok
+
+    end
+# def destroy
+#     service_provider = find_service_provider
+#     service_provider.destroy
+#     head:no_content
+# end
 private
 
 def find_service_provider
     ServiceProvider.find(params[:id])
 end
 
+def create_provider_session provider_id
+    session[:provider_id] ||= provider_id
+end
+
 def service_provider_params
-    params.permit(:name, :gender)
+    params.permit(:name, :gender,:email,:password)
+end
+
+def delete_provider_session
+    session.delete :provider_id
 end
 
 def render_not_found_response
