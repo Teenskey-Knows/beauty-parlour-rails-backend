@@ -26,37 +26,27 @@ ___
 #### Log In
 
 * A service provider can login after signing up
-
 ###### [Login](https://thawing-journey-77356.herokuapp.com/provider/login")
 
 #### Log Out
-
 * A service provider can logout after signing up
-
 ###### [Logout](https://thawing-journey-77356.herokuapp.com/provider/logout")
 
 #### Creating a service
-
 * The only person authorized to create a service is the services provider only after he or she signs up
 * Below is the route for creating a service
-
 ###### [Creating a service route](https://thawing-journey-77356.herokuapp.com/service")
 
 #####  Updating the service
-
 * Below is the route that will update the service.
 ###### [Updating the service](https://thawing-journey-77356.herokuapp.com/services/:id")
 
 #### Deleting a service
-
 * Below is the route that will delete the service.
-
 ###### [Delete service](https://thawing-journey-77356.herokuapp.com/services/:id")
 
 #### Displaying the services
-
 * Below is the route that will display all the services
-
 ###### [Display service](https://thawing-journey-77356.herokuapp.com/services)
 
 #### Displaying each service
