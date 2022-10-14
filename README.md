@@ -2,7 +2,7 @@
 
 #### Salon API
 
-##### [API LINK] (https://thawing-journey-77356.herokuapp.com/"")
+##### [API link](https://thawing-journey-77356.herokuapp.com/")
 
 #### By Janet Njeri and Daniel Okebiro
 
