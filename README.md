@@ -18,27 +18,28 @@ ___
 ### All Routes For the API
 ___
 
-##### Sign Up 
+#### Sign Up 
 
 * A Service Provider can sign up and below is the specific route.
 ###### [Sign Up](https://thawing-journey-77356.herokuapp.com/provider")
 
-##### Log In
+#### Log In
 
 * A service provider can login after signing up
 
 ###### [Login](https://thawing-journey-77356.herokuapp.com/provider/login")
 
-##### Log Out
+#### Log Out
 
 * A service provider can logout after signing up
 
 ###### [Logout](https://thawing-journey-77356.herokuapp.com/provider/logout")
 
-##### Creating a service
+#### Creating a service
 
-- The only person authorized to create a service is the services provider only after he or she signs up
-- Below is the route for creating a service
+* The only person authorized to create a service is the services provider only after he or she signs up
+* Below is the route for creating a service
+
 ###### [Creating a service route](https://thawing-journey-77356.herokuapp.com/service")
 
 #####  Updating the service
@@ -47,19 +48,20 @@ ___
 ###### [Updating the service](https://thawing-journey-77356.herokuapp.com/services/:id")
 
 #### Deleting a service
+
 * Below is the route that will delete the service.
 
 ###### [Delete service](https://thawing-journey-77356.herokuapp.com/services/:id")
 
-## Displaying the services
+#### Displaying the services
 
-- Below is the route that will display all the services
+* Below is the route that will display all the services
 
-## [https://thawing-journey-77356.herokuapp.com/services]
+###### [Display service](https://thawing-journey-77356.herokuapp.com/services)
 
-## Displaying each service
+#### Displaying each service
 - Below is the route that get each service individually by id
-## [https://thawing-journey-77356.herokuapp.com/services]
+###### [Display a service at a time](https://thawing-journey-77356.herokuapp.com/services")
 
 
 
