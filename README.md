@@ -1,24 +1,62 @@
-# README
+# PHASE 4 RAILS BACKEND PROJECT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Salon API
 
-Things you may want to cover:
+## [https://thawing-journey-77356.herokuapp.com/]
 
-* Ruby version
+#### By Janet Njeri and Daniel Okebiro
 
-* System dependencies
+## Description
 
-* Configuration
+- This API show cases the different beauty services offered by the various service providers.
+- As a user, one can view all the services rendered by different professionals, and also book an appointment with the preferred service provider.
 
-* Database creation
+-The user is restricted to viewing the services only.
 
-* Database initialization
+-The service provider is the only one authorized to create a service.
 
-* How to run the test suite
+### Routes
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+#### Sign Up 
 
-* ...
+- A Service Provider can sign up and below is the specific route.
+##[https://thawing-journey-77356.herokuapp.com/provider]
+
+-A service provider can login after signing up
+
+##[https://thawing-journey-77356.herokuapp.com/provider/login]
+
+-A service provider can logout after signing up
+
+##[https://thawing-journey-77356.herokuapp.com/provider/logout]
+
+## Creating a service
+
+- The only person authorized to create a service is the services provider only after he or she signs up
+- Below is the route for creating a service
+##[https://thawing-journey-77356.herokuapp.com/service]
+
+## Updating the service
+
+-Below is the route that will update the service.
+## [https://thawing-journey-77356.herokuapp.com/services/:id]
+
+## Deleting a service
+-Below is the route that will delete the service.
+## [https://thawing-journey-77356.herokuapp.com/services/:id]
+
+## Displaying the services
+
+- Below is the route that will display all the services
+
+## [https://thawing-journey-77356.herokuapp.com/services]
+
+## Displaying each service
+- Below is the route that get each service individually by id
+## [https://thawing-journey-77356.herokuapp.com/services]
+
+
+
+
+
