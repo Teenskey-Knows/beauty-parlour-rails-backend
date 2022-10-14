@@ -4,7 +4,7 @@
 
 ###### [API link](https://thawing-journey-77356.herokuapp.com/")
 
-```rb
+
 #### By Group 4: 
        * Janet Njeri
        * Daniel Obare
@@ -12,7 +12,7 @@
        * Billy Otieno
        * Vinson Steve
      
-       ```
+      
 
 ## Description
 
