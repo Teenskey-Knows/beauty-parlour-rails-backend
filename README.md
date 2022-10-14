@@ -4,7 +4,12 @@
 
 ###### [API link](https://thawing-journey-77356.herokuapp.com/")
 
-#### By Janet Njeri and Daniel Okebiro
+#### By Group 4: 
+       *Janet Njeri
+       *Daniel Obare
+       *Daniel Sobit
+       *Billy Otieno
+       *Vinson Steve
 
 ## Description
 
