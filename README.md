@@ -31,6 +31,7 @@ ___
 #### Log Out
 * A service provider can logout after signing up
 ###### [Logout endpoint](https://thawing-journey-77356.herokuapp.com/provider/logout")
+___
 
 #### Creating a service
 * The only person authorized to create a service is the services provider only after he or she signs up
@@ -52,6 +53,38 @@ ___
 #### Displaying each service
 - Below is the route that get each service individually by id
 ###### [Display a service at a time endpoint](https://thawing-journey-77356.herokuapp.com/services")
+
+___
+
+### User
+
+* As a user I can:
+  * Book an appointment
+  * Edit the appointment
+  * Delete the appointment
+___
+
+#### User creating the service
+* Below is the route that will let a user create a booking
+###### [Display service endpoint](https://thawing-journey-77356.herokuapp.com/booking)
+
+#### Displaying all bookings
+* Below is the route that will display all booking appointments
+###### [Display booking endpoint](https://thawing-journey-77356.herokuapp.com/bookings)
+
+#### Displaying each booking at a time
+* Below is the route that will display all the services
+###### [Display each booking endpoint](https://thawing-journey-77356.herokuapp.com/booking/:id)
+
+#### Updating a booking
+* Below is the route that will let a user update a booking
+###### [Update a booking endpoint](https://thawing-journey-77356.herokuapp.com/booking/:id)
+
+#### Deleting a booking
+* Below is the route that will delete a client's appointment
+###### [Deleting booking endpoint](https://thawing-journey-77356.herokuapp.com/booking/:id)
+
+
 
 
 
