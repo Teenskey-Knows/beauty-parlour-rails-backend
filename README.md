@@ -3,13 +3,14 @@
 #### Salon API
 
 ###### [API link](https://thawing-journey-77356.herokuapp.com/")
-
+```
 #### By Group 4: 
-       *Janet Njeri
-       *Daniel Obare
-       *Daniel Sobit
-       *Billy Otieno
-       *Vinson Steve
+       * Janet Njeri
+       * Daniel Obare
+       * Daniel Sobit
+       * Billy Otieno
+       * Vinson Steve
+       ```
 
 ## Description
 
