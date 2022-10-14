@@ -1,8 +1,8 @@
-# PHASE 4 RAILS BACKEND PROJECT
+### PHASE 4 RAILS BACKEND PROJECT
 
-## Salon API
+#### Salon API
 
-## [https://thawing-journey-77356.herokuapp.com/]
+##### [API LINK] (https://thawing-journey-77356.herokuapp.com/"")
 
 #### By Janet Njeri and Daniel Okebiro
 
@@ -20,31 +20,35 @@
 
 #### Sign Up 
 
-- A Service Provider can sign up and below is the specific route.
-##[https://thawing-journey-77356.herokuapp.com/provider]
+* A Service Provider can sign up and below is the specific route.
+#### [SIGN UP] (https://thawing-journey-77356.herokuapp.com/provider"")
 
--A service provider can login after signing up
+#### Log In
 
-##[https://thawing-journey-77356.herokuapp.com/provider/login]
+* A service provider can login after signing up
 
--A service provider can logout after signing up
+## [LOGIN] (https://thawing-journey-77356.herokuapp.com/provider/login"")
 
-##[https://thawing-journey-77356.herokuapp.com/provider/logout]
+#### Log Out
+* A service provider can logout after signing up
 
-## Creating a service
+##### [LOGOUT] (https://thawing-journey-77356.herokuapp.com/provider/logout)
+
+### Creating a service
 
 - The only person authorized to create a service is the services provider only after he or she signs up
 - Below is the route for creating a service
-##[https://thawing-journey-77356.herokuapp.com/service]
+#### [Creating a service route] (https://thawing-journey-77356.herokuapp.com/service"")
 
-## Updating the service
+### Updating the service
 
 -Below is the route that will update the service.
-## [https://thawing-journey-77356.herokuapp.com/services/:id]
+#### [Updating the service] (https://thawing-journey-77356.herokuapp.com/services/:id"")
 
-## Deleting a service
--Below is the route that will delete the service.
-## [https://thawing-journey-77356.herokuapp.com/services/:id]
+### Deleting a service
+- Below is the route that will delete the service.
+
+#### [Delete service] (https://thawing-journey-77356.herokuapp.com/services/:id"")
 
 ## Displaying the services
 
