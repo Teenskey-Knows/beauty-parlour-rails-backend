@@ -38,7 +38,7 @@ ___
 
 #### Provider to stay logged in
 
-* A service provider can login after signing up
+* A service provider can stay logged in via this endpoint
 ###### [Login endpoint](https://thawing-journey-77356.herokuapp.com/provider/stay_loggedIn)
 
 
