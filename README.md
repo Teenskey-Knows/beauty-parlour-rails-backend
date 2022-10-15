@@ -36,6 +36,12 @@ ___
 * A service provider can login after signing up
 ###### [Login endpoint](https://thawing-journey-77356.herokuapp.com/provider/login")
 
+#### Provider to stay logged in
+
+* A service provider can login after signing up
+###### [Login endpoint](https://thawing-journey-77356.herokuapp.com/provider/stay_loggedIn)
+
+
 #### Log Out
 * A service provider can logout after signing up
 ###### [Logout endpoint](https://thawing-journey-77356.herokuapp.com/provider/logout")
