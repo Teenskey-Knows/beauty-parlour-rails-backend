@@ -2,7 +2,7 @@
 
 #### Salon API
 
-###### [API link](https://thawing-journey-77356.herokuapp.com/")
+###### [API link](https://thawing-journey-77356.herokuapp.com/)
 
 
 #### By Group 4: 
@@ -29,12 +29,12 @@ ___
 #### Sign Up 
 
 * A Service Provider can sign up and below is the specific route.
-###### [Sign Up endpoint](https://thawing-journey-77356.herokuapp.com/provider")
+###### [Sign Up endpoint](https://thawing-journey-77356.herokuapp.com/provider)
 
 #### Log In
 
 * A service provider can login after signing up
-###### [Login endpoint](https://thawing-journey-77356.herokuapp.com/provider/login")
+###### [Login endpoint](https://thawing-journey-77356.herokuapp.com/provider/login)
 
 #### Provider to stay logged in
 
@@ -44,21 +44,21 @@ ___
 
 #### Log Out
 * A service provider can logout after signing up
-###### [Logout endpoint](https://thawing-journey-77356.herokuapp.com/provider/logout")
+###### [Logout endpoint](https://thawing-journey-77356.herokuapp.com/provider/logout)
 ___
 
 #### Creating a service
 * The only person authorized to create a service is the services provider only after he or she signs up
 * Below is the route for creating a service
-###### [Creating a service endpoint](https://thawing-journey-77356.herokuapp.com/service")
+###### [Creating a service endpoint](https://thawing-journey-77356.herokuapp.com/service)
 
 #####  Updating the service
 * Below is the route that will update the service.
-###### [Updating the service endpoint](https://thawing-journey-77356.herokuapp.com/services/:id")
+###### [Updating the service endpoint](https://thawing-journey-77356.herokuapp.com/services/:id)
 
 #### Deleting a service
 * Below is the route that will delete the service.
-###### [Delete service endpoint](https://thawing-journey-77356.herokuapp.com/services/:id")
+###### [Delete service endpoint](https://thawing-journey-77356.herokuapp.com/services/:id)
 
 #### Displaying the services
 * Below is the route that will display all the services
@@ -66,7 +66,7 @@ ___
 
 #### Displaying each service
 - Below is the route that get each service individually by id
-###### [Display a service at a time endpoint](https://thawing-journey-77356.herokuapp.com/services")
+###### [Display a service at a time endpoint](https://thawing-journey-77356.herokuapp.com/services)
 
 ___
 
