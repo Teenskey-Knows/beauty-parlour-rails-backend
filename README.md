@@ -80,7 +80,7 @@ ___
 
 #### User creating the booking
 * Below is the route that will let a user create a booking
-###### [Display service endpoint](https://thawing-journey-77356.herokuapp.com/booking)
+###### [Create a booking](https://thawing-journey-77356.herokuapp.com/booking)
 
 #### Displaying all bookings
 * Below is the route that will display all booking appointments
