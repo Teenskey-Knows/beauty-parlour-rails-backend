@@ -78,7 +78,7 @@ ___
   * Delete the appointment
 ___
 
-#### User creating the service
+#### User creating the booking
 * Below is the route that will let a user create a booking
 ###### [Display service endpoint](https://thawing-journey-77356.herokuapp.com/booking)
 
