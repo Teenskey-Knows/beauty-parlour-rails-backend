@@ -50,7 +50,7 @@ ___
 #### Creating a service
 * The only person authorized to create a service is the services provider only after he or she signs up
 * Below is the route for creating a service
-###### [Creating a service endpoint](https://thawing-journey-77356.herokuapp.com/service)
+###### [Creating a service endpoint](https://thawing-journey-77356.herokuapp.com/services)
 
 #####  Updating the service
 * Below is the route that will update the service.
@@ -65,8 +65,8 @@ ___
 ###### [Display service endpoint](https://thawing-journey-77356.herokuapp.com/services)
 
 #### Displaying each service
-- Below is the route that get each service individually by id
-###### [Display a service at a time endpoint](https://thawing-journey-77356.herokuapp.com/services)
+- Below is the route that gets each service individually by id
+###### [Display a service at a time endpoint](https://thawing-journey-77356.herokuapp.com/services/:id)
 
 ___
 
